@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page {
+    background-color: lightblue; /* Set home page background color to light blue */
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    margin-right: 20px;
+    max-width: 200px; /* Adjust as needed */
+}
+
+.about-page {
+    background-color: black; /* Set about page background color to black */
+    color: white; /* Set about page text color to white */
+}
+
+.portfolio-page {
+    background-color: black; /* Set portfolio page background color to black */
+    color: white; /* Set portfolio page text color to white */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+
+.home-content h1{
+    font-size: 3em;
+    
+    margin-right: auto;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1em 0;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project .text-content {
+    flex: 3;
+}
+
+.project .text-content h2 {
+    margin-bottom: 5px;
+}
+
+.project .text-content p {
+    margin-bottom: 10px;
+}
+
+.project .text-content a {
+    display: inline-block;
+    color: lightblue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.project .text-content a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.project-photo {
+    max-width: 40%;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
