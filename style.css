@@ -14,6 +14,9 @@ body {
     justify-content: center;
 }
 
+.contact-page{
+    background-color: lightblue;
+}
 
 
 .profile-photo {
@@ -54,6 +57,7 @@ main {
     
     margin-right: auto;
 }
+
 
 p{
     font-size: 1.2em;
@@ -103,4 +107,71 @@ blockquote {
 ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+}
+
+
+
+.contact-page {
+    
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust this value based on the height of your header */
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 100%;
+    max-width: 150px;
+}
+
+
+button:hover {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    @media (min-width: 769px) {
+        .about-content {
+            flex-direction: row;
+        }
+    
+        form {
+            width: 50%;
+            margin: auto;
+        }
+    }
 }
